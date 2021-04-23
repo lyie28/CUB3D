@@ -10,24 +10,17 @@ git clone https://github.com/lyie28/CUB3D
 How to run:
 
 make
-
-./cub3D map.cub
+- ./cub3D map.cub
 
 Keys:
 
-N move up
-
-S move right
-
-E move left
-
-W move down
-
-<- (turn camera to left)
-
--> (turn camera to right)
-
-Esc (exit)
+- N move up
+- S move right
+- E move left
+- W move down
+- <- (turn camera to left)
+- -> (turn camera to right)
+- Esc (exit)
 
 
 How to modify:
