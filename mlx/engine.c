@@ -6,7 +6,7 @@
 /*   By: lyie <lyie@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/20 13:43:04 by lyie              #+#    #+#             */
-/*   Updated: 2021/04/22 10:13:50 by lyie             ###   ########.fr       */
+/*   Updated: 2021/04/23 17:10:36 by lyie             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,7 +111,7 @@ int			ft_mlxbuild(t_data data)
 	all.data = data;
 	ft_initall(&all);
 	ft_loadtextures(&all);
-	system("aplay -q ./sounds/Always.wav &");
+	system("aplay -q ./sounds/FYBVB.wav &");
 	if (all.mlx.close == 1)
 		return (1);
 	mlx_loop_hook(all.mlx.mlx, ft_launch, &all);
