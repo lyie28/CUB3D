@@ -30,8 +30,10 @@ You can modify the map.cub file to change the resolution, colours and images tha
 
 Resources:
 
-I followed Pikuma's raycasting course to get to grips with the maths behind this project.
+- I followed Pikuma's raycasting course to get to grips with the maths behind this project.
 I would thoroughly recommend the course to anyone who wants to learn how to use the raycasting technique. [https://courses.pikuma.com/courses/raycasting-c]
+
+- This article is great for understanding how to write a .bmp image: https://medium.com/sysf/bits-to-bitmaps-a-simple-walkthrough-of-bmp-image-format-765dc6857393
 
 Not to 42 students**:
 Note that for the 42 assessment, when you use --save, your program should not open the game in a window. It should only create the .bmp image. (I will update this later)
