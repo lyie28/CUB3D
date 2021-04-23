@@ -6,7 +6,7 @@
 /*   By: lyie <lyie@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/21 11:52:27 by lyie              #+#    #+#             */
-/*   Updated: 2021/04/21 13:57:02 by lyie             ###   ########.fr       */
+/*   Updated: 2021/04/23 12:34:15 by lyie             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,13 +56,13 @@ int			ft_loadtextures(t_all *all)
 				all->data.no, &(all->tex[0].w), &(all->tex[0].h))))
 		return (ft_texturefail(all));
 	if (!(all->tex[1].img = mlx_xpm_file_to_image(all->mlx.mlx,
-				all->data.so, &(all->tex[1].w), &(all->tex[1].h))))
+				all->data.ea, &(all->tex[1].w), &(all->tex[1].h))))
 		return (ft_texturefail(all));
 	if (!(all->tex[2].img = mlx_xpm_file_to_image(all->mlx.mlx,
-				all->data.we, &(all->tex[2].w), &(all->tex[2].h))))
+				all->data.so, &(all->tex[2].w), &(all->tex[2].h))))
 		return (ft_texturefail(all));
 	if (!(all->tex[3].img = mlx_xpm_file_to_image(all->mlx.mlx,
-				all->data.ea, &(all->tex[3].w), &(all->tex[3].h))))
+				all->data.we, &(all->tex[3].w), &(all->tex[3].h))))
 		return (ft_texturefail(all));
 	if (!(all->tex[4].img = mlx_xpm_file_to_image(all->mlx.mlx,
 				all->data.sprite, &(all->tex[4].w), &(all->tex[4].h))))

@@ -1,7 +1,7 @@
 R 800 800
-NO ./textures/pinky.xpm
-SO ./textures/kitten.xpm
-WE ./textures/rainbow.xpm
+NO ./textures/kitten.xpm
+SO ./textures/rainbow.xpm
+WE ./textures/pinky.xpm
 EA ./textures/lollies.xpm
 S ./textures/sprite.xpm
 F 255,152,213
