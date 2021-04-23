@@ -3,13 +3,17 @@ This project (from the 42 school syllabus) uses the raycasting technique to crea
 The project is designed to work on Linux. I will add a Mac version when I get a spare moment.
 
 How to download:
+
 git clone https://github.com/lyie28/CUB3D
 
 How to run:
+
 make
+
 ./cub3D map.cub
 
 Keys:
+
 N move up
 S move right
 E move left
