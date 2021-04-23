@@ -16,17 +16,11 @@ make
 Keys:
 
 N move up
-
 S move right
-
 E move left
-
 W move down
-
 <- (turn camera to left)
-
 -> (turn camera to right)
-
 Esc (exit)
 
 How to modify:
