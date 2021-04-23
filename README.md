@@ -16,12 +16,19 @@ make
 Keys:
 
 N move up
+
 S move right
+
 E move left
+
 W move down
+
 <- (turn camera to left)
+
 -> (turn camera to right)
+
 Esc (exit)
+
 
 How to modify:
 You can modify the map.cub file to change the resolution, colours and images that are projected in the program.
