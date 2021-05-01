@@ -11,8 +11,9 @@ git clone https://github.com/lyie28/CUB3D
 
 How to run:
 
-make
-./cub3D map.cub
+-> make
+
+-> ./cub3D map.cub
 
 Keys:
 
