@@ -1,3 +1,5 @@
+CUB3D [LINUX VERSION]
+
 This project (from the 42 school syllabus) uses the raycasting technique to create a 3D world based on the videogame Wolfenstein 3D. 
 (The world in my project is inspired by the video game Rainbow Unicorn Attack. If you don't know it, you should check it out)!
 
